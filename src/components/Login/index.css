@@ -1,0 +1,66 @@
+* {
+  font-family: 'Roboto';
+}
+.login-bg-container {
+  background-color: #000000;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-container {
+  background-color: #2c364c;
+  padding: 40px;
+  border-radius: 8px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wesite-logo {
+  width: 35%;
+  margin-bottom: 30px;
+}
+.from-container {
+  margin-top: 30px;
+  width: 85%;
+}
+.label-text {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input {
+  background-color: transparent;
+  border: solid 1px #7e858e;
+  border-radius: 6px;
+  height: 40px;
+  padding: 20px;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin-bottom: 20px;
+  outline-style: none;
+}
+.login-button {
+  background-color: #6366f1;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.error-mes {
+  color: #ff0b37;
+  font-size: 14px;
+}

@@ -1,0 +1,17 @@
+.job-bg-container {
+  background-color: #000;
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+}
+.job-left-container {
+  width: 35%;
+}
+.job-right-container {
+  margin-left: 80px;
+  width: 100%;
+}
+.hr-line {
+  background-color: #7e858e;
+  border-color: #7e858e;
+}
